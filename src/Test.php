@@ -1,9 +1,11 @@
-<?php 
+<?php
 namespace App\Test;
 
-class Test {
+class Test
+{
     public function __construct()
     {
         echo "Test constructor";
+        return false;
     }
 }
